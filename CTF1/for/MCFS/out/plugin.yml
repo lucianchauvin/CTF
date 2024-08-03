@@ -1,0 +1,10 @@
+name: MCFS
+main: com.tamuctf.mcfs.MCFS
+version: 1.0
+api-version: 1.20
+commands:
+   write:
+      description: Write a file from the local file system into the world
+      usage: /write <file path>
+   unwrite:
+      unwrite: /unwrite <file path>

@@ -1,0 +1,34 @@
+curl 'https://forgotten-password.tamuctf.com/recover' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded;charset=UTF-8' \
+  -H 'Cookie: _forgotten_password_session=gAFUXU6iiwY%2BfQIKo%2FilpXTEz58TFqL6%2FCSVFBcY9GzTNvu8qaGnIFTs94ixx74LEVejtv6FM4%2Bqvr8JzOGvoSyB4QgbKoYgUmg8ZeRBwi4rQe0a%2Fhv8CVvNwlfXNN%2FVbyFnXfehG6Y0F54VVLCnDIvmuuq382AD8DVK8VxIfw7bIGEgmBSkczfr0Hd%2BHaE5YMtL3suXHpanHRWgFDbZ%2BgK0oXMAzQOWKgog3mX6iCskvef8tkH8%2Bqes5Hzq1WStgYblDwW26YQWXIV4gtROx98wuzXnLs%2B9RiHApuZo%2FDlYtA8%3D--wLI%2BzvrHTUD54Vbi--HBkpf15ys2rHri8iChBVoQ%3D%3D' \
+  -H 'Origin: https://forgotten-password.tamuctf.com' \
+  -H 'Referer: https://forgotten-password.tamuctf.com/forget' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36' \
+  -H 'accept: text/vnd.turbo-stream.html, text/html, application/xhtml+xml' \
+  -H 'sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-csrf-token: i9PAllu-AGvK2MYEX0AB35Evq1WbLB2JVV229CXYovM0CCKI-rAlNjXquvzWj3amtvnY9Ygw5CTQAmAZvyMqKQ' \
+  -H 'x-turbo-request-id: 621b1069-4d3e-4439-96ba-ccc176179b0d' \
+  --data-raw 'authenticity_token=DtWNUPQb_apzXKoQr5HgFGFMkRTHwGsJnTG5yRWWqwNoiVMjRNsHLCMLSIYboiFbiCFeTtkZzKxHs07WnQ510A&email=lucianchauvin%40gmail.com&commit=Submit' ;
+curl 'https://forgotten-password.tamuctf.com/forget' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _forgotten_password_session=NOhscywlCIqnkiIg3wydT1wpPpBOrD2t%2FFkccCSwBs%2FJnTgHfFoN9YuyVh6JXYEnZmgbTEs%2BXR2F21XxhdYkiMCMA6Y%2BUSqQAw1ysUZDzhzf2lVAVV85xoKWs0PTlCzJWEjPuoIfys%2BLMWkthOOuwa27GnwdB7B64DSUtWEOULN6dydzcxeuPXTCOyj7l5phTJ1VSCqXElLNLwZJStgqYtgRmhFtVODLnTqRgxhe5JzuEguBOMdwYE8tSpWhRM49qefnxG6zZFlYPYh20ODRb3KaQtdfvLWlbR%2FU33nN7LFg5fgf9lrPVo%2FExQxFtwm6ZrgTOEgK4j8Fa0I7VcHDR7sxM7AmM9XuegRMwMMnDKAsv513j3b8FDEzKW0XidAyrZHm35VQN%2FjtefJ3zO0I9HQiZrtBF3UBd0n3pMHlKCWj3qA%3D--jHpzo5blME2Iefyd--G6Auw4RHbOhivzCtos31bQ%3D%3D' \
+  -H 'If-None-Match: W/"d85f57935032ee408807020e5d74f797"' \
+  -H 'Referer: https://forgotten-password.tamuctf.com/forget' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36' \
+  -H 'accept: text/vnd.turbo-stream.html, text/html, application/xhtml+xml' \
+  -H 'sec-ch-ua: "Google Chrome";v="123", "Not:A-Brand";v="8", "Chromium";v="123"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Linux"' \
+  -H 'x-csrf-token: i9PAllu-AGvK2MYEX0AB35Evq1WbLB2JVV229CXYovM0CCKI-rAlNjXquvzWj3amtvnY9Ygw5CTQAmAZvyMqKQ' \
+  -H 'x-turbo-request-id: 621b1069-4d3e-4439-96ba-ccc176179b0d'
